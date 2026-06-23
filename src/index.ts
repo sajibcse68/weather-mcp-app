@@ -76,12 +76,14 @@ app.post('/mcp', async (req, res) => {
       padding: 16px;
       margin: 0;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      min-height: 100vh;
+      min-height: 1000px;
+      height: 1000px;
       color: #333;
     }
     .container {
-      max-width: 500px;
       margin: 0 auto;
+      height: 1000px;
+      min-height: 1000px;
     }
     .card {
       background: white;
@@ -158,7 +160,7 @@ app.post('/mcp', async (req, res) => {
       font-family: 'SF Mono', Monaco, 'Courier New', monospace;
       font-size: 12px;
       color: #94a3b8;
-      max-height: 150px;
+      max-height: 1000px;
       overflow-y: auto;
     }
     .log-entry { margin-bottom: 4px; }
